@@ -1,0 +1,11 @@
+# Identify where your my.ini file is saved
+# Most Probably in C:\my.ini
+
+Make it look like this 
+
+"[mysqld]
+basedir="C:\Program Files\MySQL\MySQL Server 8.0"
+datadir="C:\Program Files\MySQL\MySQL Server 8.0\Data"
+port=3306
+bind-address=0.0.0.0
+"
