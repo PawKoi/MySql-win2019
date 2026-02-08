@@ -1,0 +1,5 @@
+# From a remote Linux
+# Where "mysql-client" is already installed
+
+mysql -h <mysql-server-ip> -u user -p
+
